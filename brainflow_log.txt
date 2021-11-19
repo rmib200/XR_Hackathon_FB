@@ -8678,3 +8678,123 @@
 [2021-11-18 15:11:03.170] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
 [2021-11-18 15:11:03.170] [board_logger] [info] use command b to start streaming
 [2021-11-18 15:11:03.242] [board_logger] [debug] start streaming
+[2021-11-18 15:29:38.905] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 15:29:38.943] [board_logger] [trace] Board object created -1
+[2021-11-18 15:29:38.943] [board_logger] [trace] prepare session
+[2021-11-18 15:29:38.962] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 15:31:23.923] [board_logger] [trace] release session
+[2021-11-18 15:31:23.923] [board_logger] [trace] stop stream
+[2021-11-18 16:18:45.403] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 16:18:45.403] [board_logger] [trace] Board object created -1
+[2021-11-18 16:18:45.403] [board_logger] [trace] prepare session
+[2021-11-18 16:18:45.423] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 16:18:56.059] [board_logger] [trace] release session
+[2021-11-18 16:18:56.059] [board_logger] [trace] stop stream
+[2021-11-18 16:23:36.372] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 16:23:36.372] [board_logger] [trace] Board object created -1
+[2021-11-18 16:23:36.372] [board_logger] [trace] prepare session
+[2021-11-18 16:23:36.391] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 16:23:40.766] [board_logger] [trace] release session
+[2021-11-18 16:23:40.766] [board_logger] [trace] stop stream
+[2021-11-18 21:55:33.608] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 21:55:33.654] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 21:55:41.341] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 21:55:41.341] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:03:15.648] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:03:15.648] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:09:38.251] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:09:38.251] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:09:50.163] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:09:50.163] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:09:55.202] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:09:55.202] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:09:59.017] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:09:59.017] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:10:02.058] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:10:02.058] [board_logger] [trace] Board object created -1
+[2021-11-18 22:10:02.089] [board_logger] [trace] prepare session
+[2021-11-18 22:10:02.115] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 22:10:04.006] [board_logger] [trace] release session
+[2021-11-18 22:10:04.006] [board_logger] [trace] stop stream
+[2021-11-18 22:10:17.791] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:10:17.791] [board_logger] [debug] use dyn lib: C:\Users\asus\Documents\GitHub\XR_Hackathon_FB\GanglionLib.dll
+[2021-11-18 22:10:17.791] [board_logger] [trace] Board object created 1
+[2021-11-18 22:10:17.954] [board_logger] [debug] Library is loaded
+[2021-11-18 22:10:17.954] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-11-18 22:10:17.954] [board_logger] [error] you need to specify dongle port
+[2021-11-18 22:11:48.352] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:11:48.353] [board_logger] [debug] use dyn lib: C:\Users\asus\Documents\GitHub\XR_Hackathon_FB\GanglionLib.dll
+[2021-11-18 22:11:48.353] [board_logger] [trace] Board object created 1
+[2021-11-18 22:11:48.354] [board_logger] [debug] Library is loaded
+[2021-11-18 22:11:48.354] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-11-18 22:11:48.354] [board_logger] [error] you need to specify dongle port
+[2021-11-18 22:15:58.257] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:15:58.257] [board_logger] [trace] Board object created -1
+[2021-11-18 22:15:58.257] [board_logger] [trace] prepare session
+[2021-11-18 22:15:58.280] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 22:16:27.935] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:16:27.988] [board_logger] [trace] Board object created 0
+[2021-11-18 22:16:27.988] [board_logger] [error] serial port is empty
+[2021-11-18 22:16:44.194] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:16:44.195] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:16:51.974] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:16:51.974] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:17:00.443] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:17:00.443] [board_logger] [error] Board with id -1 and the same config already exists
+[2021-11-18 22:17:28.474] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:17:28.474] [board_logger] [error] Board with id -1 and the same config already exists
+[2021-11-18 22:19:10.172] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:19:10.172] [board_logger] [error] Board with id -1 and the same config already exists
+[2021-11-18 22:19:33.642] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:19:33.642] [board_logger] [error] Board with id -1 and the same config already exists
+[2021-11-18 22:19:36.933] [board_logger] [trace] release session
+[2021-11-18 22:19:36.933] [board_logger] [trace] stop stream
+[2021-11-18 22:19:59.142] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:19:59.142] [board_logger] [trace] Board object created -1
+[2021-11-18 22:19:59.142] [board_logger] [trace] prepare session
+[2021-11-18 22:19:59.161] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 22:20:04.956] [board_logger] [trace] release session
+[2021-11-18 22:20:04.956] [board_logger] [trace] stop stream
+[2021-11-18 22:23:15.184] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:23:15.185] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:23:23.751] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:23:23.751] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:23:32.922] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-18 22:23:32.922] [board_logger] [trace] Board object created -1
+[2021-11-18 22:23:32.923] [board_logger] [trace] prepare session
+[2021-11-18 22:23:32.970] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 22:23:39.243] [board_logger] [trace] release session
+[2021-11-18 22:23:39.243] [board_logger] [trace] stop stream
+[2021-11-18 22:28:26.151] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-11-18 22:28:26.151] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-18 22:28:29.579] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-11-19 09:22:45.367] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 09:22:45.379] [board_logger] [trace] Board object created -1
+[2021-11-19 09:22:45.379] [board_logger] [trace] prepare session
+[2021-11-19 09:22:45.399] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 09:22:54.666] [board_logger] [trace] release session
+[2021-11-19 09:22:54.666] [board_logger] [trace] stop stream
+[2021-11-19 10:04:01.364] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 10:04:01.364] [board_logger] [trace] Board object created -1
+[2021-11-19 10:04:01.364] [board_logger] [trace] prepare session
+[2021-11-19 10:04:01.396] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 10:04:12.118] [board_logger] [trace] release session
+[2021-11-19 10:04:12.118] [board_logger] [trace] stop stream
+[2021-11-19 10:07:35.010] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 10:07:35.010] [board_logger] [trace] Board object created -1
+[2021-11-19 10:07:35.010] [board_logger] [trace] prepare session
+[2021-11-19 10:07:35.010] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 10:07:44.326] [board_logger] [trace] release session
+[2021-11-19 10:07:44.326] [board_logger] [trace] stop stream
+[2021-11-19 10:08:14.169] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 10:08:14.169] [board_logger] [trace] Board object created -1
+[2021-11-19 10:08:14.169] [board_logger] [trace] prepare session
+[2021-11-19 10:08:14.169] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 10:08:27.786] [board_logger] [trace] release session
+[2021-11-19 10:08:27.786] [board_logger] [trace] stop stream
+[2021-11-19 10:08:35.704] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 10:08:35.704] [board_logger] [trace] Board object created -1
+[2021-11-19 10:08:35.704] [board_logger] [trace] prepare session
+[2021-11-19 10:08:35.704] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 10:08:42.502] [board_logger] [trace] release session
+[2021-11-19 10:08:42.502] [board_logger] [trace] stop stream

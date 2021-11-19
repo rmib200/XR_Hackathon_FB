@@ -8678,3 +8678,33 @@
 [2021-11-18 15:11:03.170] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
 [2021-11-18 15:11:03.170] [board_logger] [info] use command b to start streaming
 [2021-11-18 15:11:03.242] [board_logger] [debug] start streaming
+[2021-11-18 16:27:41.105] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM5","timeout":0}
+[2021-11-18 16:27:41.105] [board_logger] [trace] Board object created 0
+[2021-11-18 16:27:41.106] [board_logger] [info] openning port \\.\COM5
+[2021-11-18 16:27:41.123] [board_logger] [trace] port \\.\COM5 is open
+[2021-11-18 16:27:41.124] [board_logger] [trace] set port settings
+[2021-11-18 16:27:41.124] [board_logger] [debug] sending v to the board
+[2021-11-18 16:27:42.171] [board_logger] [debug] sending d to the board
+[2021-11-18 16:27:43.380] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 16:27:43.381] [board_logger] [debug] sending b to the board
+[2021-11-18 16:28:11.845] [board_logger] [debug] sending s to the board
+[2021-11-18 16:28:40.134] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2021-11-18 16:28:40.135] [board_logger] [debug] use dyn lib: D:\Unity\Projects\XR_Hackathon_FB\GanglionLib.dll
+[2021-11-18 16:28:40.135] [board_logger] [trace] Board object created 1
+[2021-11-18 16:28:40.135] [board_logger] [debug] Library is loaded
+[2021-11-18 16:28:40.135] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-11-18 16:28:40.135] [board_logger] [debug] ganglionlib initialized
+[2021-11-18 16:28:40.135] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-11-18 16:28:41.683] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 16:28:41.683] [board_logger] [info] use command b to start streaming
+[2021-11-18 16:28:41.754] [board_logger] [debug] start streaming
+[2021-11-18 16:28:59.653] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2021-11-18 16:28:59.653] [board_logger] [debug] use dyn lib: D:\Unity\Projects\XR_Hackathon_FB\GanglionLib.dll
+[2021-11-18 16:28:59.653] [board_logger] [trace] Board object created 1
+[2021-11-18 16:28:59.653] [board_logger] [debug] Library is loaded
+[2021-11-18 16:28:59.653] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-11-18 16:28:59.653] [board_logger] [debug] ganglionlib initialized
+[2021-11-18 16:28:59.653] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-11-18 16:29:01.040] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 16:29:01.040] [board_logger] [info] use command b to start streaming
+[2021-11-18 16:29:01.113] [board_logger] [debug] start streaming

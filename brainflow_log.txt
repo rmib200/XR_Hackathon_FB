@@ -8798,3 +8798,45 @@
 [2021-11-19 10:08:35.704] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
 [2021-11-19 10:08:42.502] [board_logger] [trace] release session
 [2021-11-19 10:08:42.502] [board_logger] [trace] stop stream
+[2021-11-19 14:27:04.747] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 14:27:04.747] [board_logger] [trace] Board object created -1
+[2021-11-19 14:27:04.747] [board_logger] [trace] prepare session
+[2021-11-19 14:27:04.766] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 14:28:15.234] [board_logger] [trace] release session
+[2021-11-19 14:28:15.234] [board_logger] [trace] stop stream
+[2021-11-19 14:55:40.759] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 14:55:40.759] [board_logger] [trace] Board object created -1
+[2021-11-19 14:55:40.759] [board_logger] [trace] prepare session
+[2021-11-19 14:55:40.779] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 14:57:09.969] [board_logger] [trace] release session
+[2021-11-19 14:57:09.969] [board_logger] [trace] stop stream
+[2021-11-19 15:03:49.314] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 15:03:49.314] [board_logger] [trace] Board object created -1
+[2021-11-19 15:03:49.314] [board_logger] [trace] prepare session
+[2021-11-19 15:03:49.337] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 15:04:49.482] [board_logger] [trace] release session
+[2021-11-19 15:04:49.482] [board_logger] [trace] stop stream
+[2021-11-19 15:05:15.578] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 15:05:15.578] [board_logger] [trace] Board object created -1
+[2021-11-19 15:05:15.578] [board_logger] [trace] prepare session
+[2021-11-19 15:05:15.598] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 15:05:27.177] [board_logger] [trace] release session
+[2021-11-19 15:05:27.177] [board_logger] [trace] stop stream
+[2021-11-19 15:06:48.701] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 15:06:48.702] [board_logger] [trace] Board object created -1
+[2021-11-19 15:06:48.702] [board_logger] [trace] prepare session
+[2021-11-19 15:06:48.741] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 15:07:19.979] [board_logger] [trace] release session
+[2021-11-19 15:07:19.979] [board_logger] [trace] stop stream
+[2021-11-19 15:07:38.881] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 15:07:38.881] [board_logger] [trace] Board object created -1
+[2021-11-19 15:07:38.881] [board_logger] [trace] prepare session
+[2021-11-19 15:07:38.881] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 15:07:46.893] [board_logger] [trace] release session
+[2021-11-19 15:07:46.893] [board_logger] [trace] stop stream
+[2021-11-19 15:08:12.863] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-11-19 15:08:12.863] [board_logger] [trace] Board object created -1
+[2021-11-19 15:08:12.863] [board_logger] [trace] prepare session
+[2021-11-19 15:08:12.902] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-19 15:08:35.615] [board_logger] [trace] release session
+[2021-11-19 15:08:35.615] [board_logger] [trace] stop stream

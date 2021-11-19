@@ -212,6 +212,10 @@ public class openbciConnection : MonoBehaviour
     }
 
 
+
+
+
+
     /*En esta parte aplicamos lo de los comandos de voz----------------------------------------------------------------------*/
     /*Este parametro es para obtener los valores del audio que devuelve wit.ai*/
     /// <param name="values"></param>

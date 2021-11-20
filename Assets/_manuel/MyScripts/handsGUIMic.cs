@@ -38,13 +38,9 @@ object sirve para obtener el boton de voice*/
     void OnCollisionEnter(Collision collision){
         Button button=btn_voice.GetComponent<Button>();
         Text texte=texto.GetComponent<Text>();
-        texte.text="hubo colision";
         if(collision.gameObject.name=="index_ui"){
             texte.text="Selecciono el microfono";
             button.onClick.Invoke();
-
-
-
         }
     }
 }

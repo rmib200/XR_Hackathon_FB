@@ -18,5 +18,6 @@ public class handsGUIMic : MonoBehaviour
     public void OnTriggerEnter(Collider other) {
         if(other.gameObject.name == "index_ui")
         print("Hands GUI Mic is ON");
+        
     }
 }

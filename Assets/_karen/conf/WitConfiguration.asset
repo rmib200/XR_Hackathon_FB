@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: WitConfiguration
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 0}
+    name: xr_hackaton_fb
+    id: 257469003107045
+    lang: en
+    isPrivate: 0
+    createdAt: 2021-11-16T18:40:44-0800
+  configId: 156f08403eebf054bbd16bc856ab8882
+  clientAccessToken: R6HPPO4LMG7Q4VFR3GUQIX7LVL2GEMXE
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 1001236180455743
+    name: function
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: disconnect
+      synonyms:
+      - disconnect
+    - keyword: start
+      synonyms:
+      - start
+    - keyword: stop
+      synonyms:
+      - stop
+  - witConfiguration: {fileID: 11400000}
+    id: 754326038856845
+    name: media
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: app
+      synonyms:
+      - app
+    - keyword: music
+      synonyms:
+      - music
+  - witConfiguration: {fileID: 11400000}
+    id: 4259913860785850
+    name: object
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: board
+      synonyms:
+      - board
+    - keyword: concentration
+      synonyms:
+      - concentration
+    - keyword: cython
+      synonyms:
+      - cython
+    - keyword: ganglion
+      synonyms:
+      - ganglion
+    - keyword: synthetic
+      synonyms:
+      - synthetic
+  - witConfiguration: {fileID: 11400000}
+    id: 445247580278212
+    name: shape
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: capsule
+      synonyms:
+      - capsule
+    - keyword: cube
+      synonyms:
+      - cube
+  - witConfiguration: {fileID: 11400000}
+    id: 480838503227145
+    name: what
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: first
+      synonyms:
+      - first
+    - keyword: second
+      synonyms:
+      - second
+    - keyword: third
+      synonyms:
+      - third
+    - keyword: three
+      synonyms:
+      - three
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 327797905850767
+    name: board
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 2107585149389415
+      name: function:function
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 629497498233379
+      name: media:media
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 582385172868432
+      name: object:object
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 866598430721795
+      name: what:what
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 191540256509028
+    name: change_color
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 2107585149389415
+      name: function:function
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 582385172868432
+      name: object:object
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 1203642163378154
+      name: shape:shape
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 866598430721795
+      name: what:what
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 568931724200807
+    name: close_board
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 2107585149389415
+      name: function:function
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 582385172868432
+      name: object:object
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 1293678621103801
+    name: concentration
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 2107585149389415
+      name: function:function
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 629497498233379
+      name: media:media
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 582385172868432
+      name: object:object
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 4511176742251659
+    name: open_board
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 582385172868432
+      name: object:object
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 902099270510540
+    name: stop_board
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 2107585149389415
+      name: function:function
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 582385172868432
+      name: object:object
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 914051782563252
+    name: wit$add_time_timer
+    entities: []
+  - witConfiguration: {fileID: 11400000}
+    id: 1887606374744340
+    name: wit$select_item
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 2107585149389415
+      name: function:function
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 582385172868432
+      name: object:object
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 866598430721795
+      name: what:what
+      lookups: []
+      roles: []
+      keywords: []
+  traits:
+  - witConfiguration: {fileID: 11400000}
+    id: 419426596453636
+    name: change_color
+    values: []

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 using brainflow;
 using brainflow.math;
@@ -15,6 +16,9 @@ public class openbciConnection : MonoBehaviour
     public GameObject connect_btn;
     
     public GameObject disconnect_btn;
+
+    /*oyendo la salida que oye el microfono*/
+    public Text salida;
     public static bool concentrationAppRun;
 
     public double[,] data;
@@ -209,4 +213,42 @@ public class openbciConnection : MonoBehaviour
     public void startConcentrationApp(){
         concentrationAppRun = true;
     }
+
+
+
+    
+    /*En esta parte aplicamos lo de los comandos de voz----------------------------------------------------------------------*/
+    /*Este parametro es para obtener los valores del audio que devuelve wit.ai*/
+    /// <param name="values"></param>
+    //En esta funcion utilizaremos el boton disconnect para desconectar la board
+    public void disconnect_board(string[] values){
+        Debug.Log("Entre aqui...");
+        /*Los valores llegan en el orden function(start) y object(first,second...etc) 
+        por eso las posiciones de la cadena values*/
+        
+        var objectString = values[0];
+        var functionString = values[1];
+        Debug.Log(objectString); 
+        Debug.Log(functionString);
+        salida.text=objectString+"        "+functionString;
+        /*Se obtiene la palabra board y disconnect o stop, se revisa que el boton de connect esta desactivado y el de disconnect este activado*/
+        if(objectString.Equals("board") && connect_btn.activeInHierarchy==false && disconnect_btn.activeInHierarchy==true){
+            /*Se revisa si la funcion es disconnect o stop///////////*/
+            if(functionString.Equals("disconnect") || functionString.Equals("stop")){
+                Button boton=disconnect_btn.GetComponent<Button>();
+                boton.Select();
+                boton.onClick.Invoke();
+            }
+            
+        }
+        
+    }
+
+
+
+
+
+
+
+
 }

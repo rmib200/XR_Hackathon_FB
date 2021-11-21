@@ -21,9 +21,10 @@ public class dropdownComPorts : MonoBehaviour
 
     public void OnClick()
     {
-        GameObject texto=GameObject.Find("salida_texto_voice");
-        Text te=texto.GetComponent<Text>();
-        te.text="ENTRE AQUI AL CONNECT PERO NO SE PORQUE NO CONECTA";
+        GameObject texto=GameObject.Find("colision");
+        Text exit_text=texto.GetComponent<Text>();
+        exit_text.text="ENTRE AQUI AL CONNECT PERO NO SE PORQUE NO CONECTA";
+        
         staticPorts.connect = true;
         
         
@@ -63,6 +64,9 @@ public class dropdownComPorts : MonoBehaviour
             dropdown.itemText.text =  dropdown.options[index].text;
             staticPorts.selected_port = dropdown.options[index].text; //set Port from button
             print("Selected Port:"+staticPorts.selected_port);
+              GameObject texto=GameObject.Find("colision");
+             Text exit_text=texto.GetComponent<Text>();
+            exit_text.text="Selected Port:"+staticPorts.selected_port;
             // textBox.text = dropdown.options[index].text;
         }
 

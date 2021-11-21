@@ -21,10 +21,45 @@ MonoBehaviour:
     createdAt: 2021-11-15T05:49:03-0800
   configId: 4e21a24e472ab684e84db753427d5687
   clientAccessToken: LWWEQFAUMP2ROGJ6WEVPVYNUTGAHCOB5
-  entities: []
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 1752292018495173
+    name: board
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: cyton
+      synonyms:
+      - cyton
+    - keyword: ganglion
+      synonyms:
+      - ganglion
+    - keyword: synthtetic
+      synonyms:
+      - synthetic
+      - synthtetic
   intents:
   - witConfiguration: {fileID: 11400000}
-    id: 255320183143862
-    name: start_app
-    entities: []
+    id: 617864466003117
+    name: record_board_signal
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 295059935958961
+      name: board:board
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 2457279564407952
+    name: stop_board_signal
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 295059935958961
+      name: board:board
+      lookups: []
+      roles: []
+      keywords: []
   traits: []

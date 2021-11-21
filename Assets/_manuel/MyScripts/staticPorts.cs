@@ -13,8 +13,11 @@ public static class staticPorts
    public static bool statusON = false;
    
    public static int[] eeg_channels;
+   public static double[,] data;
 
    public static int sampling_rate = 0;
+
+   public static float concentrationLvl;
 
    public static float ssvep_threshold;
 

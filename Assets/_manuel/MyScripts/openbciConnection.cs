@@ -5,6 +5,7 @@ using UnityEngine;
 
 using brainflow;
 using brainflow.math;
+using TMPro;
 
 public class openbciConnection : MonoBehaviour
 {
@@ -14,8 +15,10 @@ public class openbciConnection : MonoBehaviour
     public GameObject connect_btn;
     
     public GameObject disconnect_btn;
+    public static bool concentrationAppRun;
 
-    //public static double[,] data;
+    public double[,] data;
+    public TextMeshProUGUI concentration_lvl_txt;
     // Start is called before the first frame update
     void startBoard()
     {
@@ -39,12 +42,21 @@ public class openbciConnection : MonoBehaviour
             print("Sampling rate:"+sampling_rate);
             staticPorts.sampling_rate = BoardShim.get_sampling_rate(board_id);
 
+              
             Debug.Log("Brainflow streaming was started");
             staticPorts.statusON = true;
             connect_btn.SetActive(false);
             disconnect_btn.SetActive(true);
 
-            staticPorts.eeg_channels =  BoardShim.get_eeg_channels (board_id);
+            staticPorts.eeg_channels =  BoardShim.get_eeg_channels(board_id);
+            print("BoardId:"+board_id);
+            // foreach(var ch in staticPorts.eeg_channels){
+            //     print("staticports.eegchannels22 :"+ch);
+            // }
+            print("staticports.eegchannels:"+ BoardShim.get_eeg_channels(board_id));
+            
+
+
 
             //DontDestroyOnLoad(connect_btn);
             //DontDestroyOnLoad(disconnect_btn);
@@ -68,12 +80,23 @@ public class openbciConnection : MonoBehaviour
         }
         //status = ON / OFF
 
+
+
         if(staticPorts.statusON == true){
+                    int number_of_data_points = sampling_rate * 4;
+        data = board_shim.get_current_board_data(number_of_data_points);
+            // data = board_shim.get_board_data();
+            //Concentration APP
+            if(concentrationAppRun)
+            {
+                 ConcentrationEEG(data);
+            }
+
             if (board_shim == null)
             {
                 return;
             }
-            int number_of_data_points = sampling_rate * 120;
+            // int number_of_data_points = sampling_rate * 120;
             //print(number_of_data_points);
             //double [,] data = board_shim.get_current_board_data(number_of_data_points);
 
@@ -139,6 +162,10 @@ public class openbciConnection : MonoBehaviour
             //disconnect_btn.SetActive(false);
             Debug.Log("Brainflow streaming was stopped");
         }
+        
+
+
+
     }
     /*
     public void ToggleConnect(){
@@ -161,4 +188,27 @@ public class openbciConnection : MonoBehaviour
         }
     }
     */
+
+
+        public void ConcentrationEEG(double[,] data)
+    {
+        Tuple<double[], double[]> bands = DataFilter.get_avg_band_powers(data, staticPorts.eeg_channels, sampling_rate, true);
+        //print(bands.Length);
+        //print(bands.Item1.Length);
+        double[] feature_vector = bands.Item1.Concatenate(bands.Item2);
+        print(feature_vector.Length);
+        BrainFlowModelParams model_params = new BrainFlowModelParams((int)BrainFlowMetrics.CONCENTRATION, (int)BrainFlowClassifiers.REGRESSION);
+        MLModel concentration = new MLModel(model_params);
+        concentration.prepare();
+        var concentration_lvl = concentration.predict(feature_vector);
+        concentration_lvl_txt.text = ((int)(concentration_lvl * 100f)).ToString() + " %";
+        // concentrationClass.concentration_lvl = (float)concentration_lvl;
+        staticPorts.concentrationLvl = (float)concentration_lvl;
+        print("Concentration: " + concentration_lvl);
+        concentration.release();
+    }
+
+    public void startConcentrationApp(){
+        concentrationAppRun = true;
+    }
 }

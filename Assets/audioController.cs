@@ -8,6 +8,11 @@ public class audioController : MonoBehaviour
     public GameObject audioBtnOn;
     public GameObject audioBtnOff;
     // Start is called before the first frame update
+    private void Awake() {
+        //Muting sound at the start of the game
+        PlayerPrefs.SetInt("Muted", 1);
+        // print("Muting sound");
+    }
     void Start()
     {
         SetSoundState();

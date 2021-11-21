@@ -775,7 +775,6 @@ GameObject:
   - component: {fileID: 737401905}
   - component: {fileID: 737401908}
   - component: {fileID: 737401909}
-  - component: {fileID: 737401907}
   m_Layer: 0
   m_Name: App Voice Experience
   m_TagString: Untagged
@@ -969,7 +968,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   witRuntimeConfiguration:
-    witConfiguration: {fileID: 11400000, guid: 8ca721df475c92e4ca9167b74de4b2f6, type: 2}
+    witConfiguration: {fileID: 11400000, guid: b6b2ce180298045498bd5ae980ef2a6d, type: 2}
     minKeepAliveVolume: 0.0005
     minKeepAliveTimeInSeconds: 2
     minTranscriptionKeepAliveTimeInSeconds: 1
@@ -995,18 +994,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &737401907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737401904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8114fd1d3bfe3ce48bffcfaec698d3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &737401908
 MonoBehaviour:
   m_ObjectHideFlags: 0

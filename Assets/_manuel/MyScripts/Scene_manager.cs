@@ -12,6 +12,7 @@ public class Scene_manager : MonoBehaviour
     public GameObject boardMenu;
     public GameObject connectButton;
     public GameObject disconnectButton;
+    public GameObject vitalsButton;
     public void StartGame(){
         SceneManager.LoadScene("base_level_scene");
     }
@@ -20,6 +21,9 @@ public class Scene_manager : MonoBehaviour
     }
     public void MultiplayerGame(){
         SceneManager.LoadScene("multiplayer_level");
+    }
+    public void PulseScene(){
+        SceneManager.LoadScene("VitalsMonitor");
     }
     public void QuitGame(){
         Application.Quit();

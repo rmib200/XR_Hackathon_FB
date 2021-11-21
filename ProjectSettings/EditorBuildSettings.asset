@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/_manuel/MyScenes/menu_asteroids.unity
     guid: bb2b1425843a21f4e8be0583994988b5
   - enabled: 0
@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_manuel/MyScenes/multiplayer_level.unity
     guid: 0da3f7fd62f7a66469d98611775affa3
-  - enabled: 0
+  - enabled: 1
     path: Assets/_bruno/myscenes/SSVEPDebugTool.unity
     guid: 0c7035ebc664a4b42be821c156f50894
   - enabled: 1
@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Oculus/SampleFramework/Usage/Passthrough/Scenes/SelectivePassthrough.unity
     guid: 0e7861142f653584586c707ede59072e
+  - enabled: 1
+    path: Assets/PulsePhysiologyEngine/Scenes/VitalsMonitor.unity
+    guid: 06477111a2d06324f87f8585b7f6509e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e933ac6131720494f9f0f6988b44b0dc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6c48eef4778459f46833868080733b8e, type: 2}

@@ -8708,3 +8708,31 @@
 [2021-11-18 16:29:01.040] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
 [2021-11-18 16:29:01.040] [board_logger] [info] use command b to start streaming
 [2021-11-18 16:29:01.113] [board_logger] [debug] start streaming
+[2021-11-20 01:08:03.390] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2021-11-20 01:08:03.418] [board_logger] [trace] Board object created 0
+[2021-11-20 01:08:03.418] [board_logger] [info] openning port \\.\COM3
+[2021-11-20 01:08:03.418] [board_logger] [trace] port \\.\COM3 is open
+[2021-11-20 01:08:03.421] [board_logger] [trace] set port settings
+[2021-11-20 01:08:03.421] [board_logger] [debug] sending v to the board
+[2021-11-20 01:08:10.891] [board_logger] [error] board doesnt send welcome characters!
+[2021-11-20 01:11:30.485] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2021-11-20 01:11:30.485] [board_logger] [trace] Board object created 0
+[2021-11-20 01:11:30.485] [board_logger] [info] openning port \\.\COM3
+[2021-11-20 01:11:30.485] [board_logger] [trace] port \\.\COM3 is open
+[2021-11-20 01:11:30.487] [board_logger] [trace] set port settings
+[2021-11-20 01:11:30.487] [board_logger] [debug] sending v to the board
+[2021-11-20 01:11:37.956] [board_logger] [error] board doesnt send welcome characters!
+[2021-11-20 01:11:55.363] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2021-11-20 01:11:55.363] [board_logger] [trace] Board object created 0
+[2021-11-20 01:11:55.363] [board_logger] [info] openning port \\.\COM3
+[2021-11-20 01:11:55.363] [board_logger] [trace] port \\.\COM3 is open
+[2021-11-20 01:11:55.366] [board_logger] [trace] set port settings
+[2021-11-20 01:11:55.366] [board_logger] [debug] sending v to the board
+[2021-11-20 01:12:02.837] [board_logger] [error] board doesnt send welcome characters!
+[2021-11-20 01:25:39.936] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2021-11-20 01:25:39.936] [board_logger] [trace] Board object created 0
+[2021-11-20 01:25:39.936] [board_logger] [info] openning port \\.\COM3
+[2021-11-20 01:25:39.936] [board_logger] [trace] port \\.\COM3 is open
+[2021-11-20 01:25:39.938] [board_logger] [trace] set port settings
+[2021-11-20 01:25:39.938] [board_logger] [debug] sending v to the board
+[2021-11-20 01:25:47.391] [board_logger] [error] board doesnt send welcome characters!

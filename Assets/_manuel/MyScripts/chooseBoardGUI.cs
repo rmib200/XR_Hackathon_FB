@@ -7,10 +7,10 @@ using UnityEngine.UI;
 public class chooseBoardGUI : MonoBehaviour
 {   
     /*Llamando a todos los botones*/
-    public Button button;
-    public Button btnCython;
-    public Button btnGanglion;
-    public Button btnSynthetic;
+    public GameObject button;
+    public GameObject btnCython;
+    public GameObject btnGanglion;
+    public GameObject btnSynthetic;
 
     /*oyendo la salida que oye el microfono*/
     public Text salida;

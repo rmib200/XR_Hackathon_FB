@@ -11,6 +11,7 @@ public class dropdownComPorts : MonoBehaviour
 
     public TMP_Dropdown dropdown;
 
+
     // public TextMeshProUGUI textBox;
 
     void Start()//Creates a button and sets it up
@@ -20,7 +21,11 @@ public class dropdownComPorts : MonoBehaviour
 
     public void OnClick()
     {
+        GameObject texto=GameObject.Find("salida_texto_voice");
+        Text te=texto.GetComponent<Text>();
+        te.text="ENTRE AQUI AL CONNECT PERO NO SE PORQUE NO CONECTA";
         staticPorts.connect = true;
+        
         
     }
 

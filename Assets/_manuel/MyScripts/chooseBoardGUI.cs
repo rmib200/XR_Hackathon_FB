@@ -12,9 +12,6 @@ public class chooseBoardGUI : MonoBehaviour
     public GameObject btnGanglion;
     public GameObject btnSynthetic;
 
-    /*oyendo la salida que oye el microfono*/
-    public Text salida;
-
     public void Onclick(){
            Button btn=button.GetComponent<Button>();
            btn.onClick.Invoke();
@@ -33,24 +30,24 @@ public class chooseBoardGUI : MonoBehaviour
         Debug.Log(functionString);
          var objectString = values[1];
         Debug.Log(objectString); 
-        salida.text=functionString+"     "+objectString;
+      
         /*En caso  de que la funcion sea Start ingresa al fin y dependiendo del 
         object(first, second...) entra a uno de esos*/
-        if(functionString.Equals("start")){
-            if(objectString.Equals("first")){
+      //  if(functionString.Equals("start") || functionString.Equals("add")){
+            if(objectString.Equals("first") || functionString.Equals("first")) {
                 cytonOnClick();
                 cytonselected();
             }
-            if(objectString.Equals("second")){
+            if(objectString.Equals("second") || functionString.Equals("second")){
                 ganglionOnClick();
                 ganglionselected();
 
             }
-            if(objectString.Equals("third") || objectString.Equals("three")){
+            if(objectString.Equals("third") || objectString.Equals("three") || functionString.Equals("three") || functionString.Equals("third")){
                 syntheticOnClick();
                 syntheticselected();
             }
-        }
+       //}
     }
 
 /*----------------------------------------------------CYTHONNNNNNNN--------------------------------------------------------------------------------------------*/

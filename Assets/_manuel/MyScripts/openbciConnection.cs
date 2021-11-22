@@ -18,7 +18,7 @@ public class openbciConnection : MonoBehaviour
     public GameObject disconnect_btn;
 
     /*oyendo la salida que oye el microfono*/
-    public Text salida;
+  //  public Text salida;
     public static bool concentrationAppRun;
 
     public double[,] data;
@@ -230,7 +230,7 @@ public class openbciConnection : MonoBehaviour
         var functionString = values[1];
         Debug.Log(objectString); 
         Debug.Log(functionString);
-        salida.text=objectString+"        "+functionString;
+     //   salida.text=objectString+"        "+functionString;
         /*Se obtiene la palabra board y disconnect o stop, se revisa que el boton de connect esta desactivado y el de disconnect este activado*/
         if(objectString.Equals("board") && connect_btn.activeInHierarchy==false && disconnect_btn.activeInHierarchy==true){
             /*Se revisa si la funcion es disconnect o stop///////////*/

@@ -21,9 +21,9 @@ public class dropdownComPorts : MonoBehaviour
 
     public void OnClick()
     {
-        GameObject texto=GameObject.Find("colision");
-        Text exit_text=texto.GetComponent<Text>();
-        exit_text.text="ENTRE AQUI AL CONNECT PERO NO SE PORQUE NO CONECTA";
+        // GameObject texto=GameObject.Find("colision");
+        // Text exit_text=texto.GetComponent<Text>();
+        // exit_text.text="ENTRE AQUI AL CONNECT PERO NO SE PORQUE NO CONECTA";
         
         staticPorts.connect = true;
         
